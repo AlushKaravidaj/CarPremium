@@ -41,13 +41,15 @@ body {
     left: 100%;
 }
 
-.left, .right {
+.left,
+.right {
     font-size: 18px;
     cursor: pointer;
     text-transform: uppercase;
 }
 
-.left:hover, .right:hover {
+.left:hover,
+.right:hover {
     color: #ff4500;
 }
 
@@ -144,47 +146,24 @@ body {
     color: #aaa;
 }
 
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
 
+.social-media div {
+    text-align: center;
+}
 
+.social-media img {
+    width: 50px;
+    height: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social-media p {
+    margin-top: 10px;
+    color: white;
+}
