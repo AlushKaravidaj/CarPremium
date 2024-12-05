@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.car-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.car-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.car-card p {
+    font-size: 14px;
+    color: #666;
+}
