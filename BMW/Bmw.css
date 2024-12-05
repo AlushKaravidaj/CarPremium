@@ -221,3 +221,14 @@ body {
 .footer-bottom span {
     color: #0073e6;
 }
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #0073e6;
+    margin-bottom: 5px;
+}
