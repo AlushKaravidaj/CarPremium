@@ -76,4 +76,9 @@ input::placeholder {
 input[type="checkbox"] {
     margin-top: 10px;
 }
+label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
 
