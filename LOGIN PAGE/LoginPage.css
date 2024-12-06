@@ -68,3 +68,12 @@ input[type="password"]:focus {
     border-color: #007acc;
     outline: none;
 }
+input::placeholder {
+    color: #bfbfbf;
+}
+
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
