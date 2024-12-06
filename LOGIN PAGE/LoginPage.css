@@ -89,5 +89,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007acc;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
 
