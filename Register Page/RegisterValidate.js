@@ -26,7 +26,7 @@ document.getElementById("registerForm").addEventListener("submit", function (eve
 
     var phonePattern = /^[0-9]{10}$/;
     if (!phonePattern.test(phoneNumber)) {
-        alert("Please enter a valid 9-digit phone number.");
+        alert("Please enter a valid 10-digit phone number.");
         event.preventDefault();
         return false;
     }
