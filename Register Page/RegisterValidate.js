@@ -39,3 +39,4 @@ document.getElementById("registerForm").addEventListener("submit", function (eve
 
     return true;
 });
+
